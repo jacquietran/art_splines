@@ -34,7 +34,7 @@ rect_data <- tibble::tibble(
 splines_data <- purrr::map_df(seed_vec, function(i){
   
   set.seed(i)
-  n_control_points <- sample(seq(3, 4, by = 1), 1)
+  n_control_points <- sample(seq(3, 6, by = 1), 1)
   
   set.seed(i)
   data <- data.frame(
