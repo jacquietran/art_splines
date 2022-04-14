@@ -43,7 +43,8 @@ blob_colour <- throw_shapes2(
 
 # Splines to draw
 splines <- throw_shapes2(
-  seed_num = initial_seed, n_shapes = n_splines_drawn, palette = colour_vec)
+  seed_num = initial_seed, n_shapes = n_splines_drawn, palette = colour_vec,
+  personality = "bold")
 
 # Make noise layer
 noise <- make_noise(
