@@ -23,7 +23,7 @@ colour_vec <- c("#F75590", "#FCE4D8", "#FBD87F", "#B5F8FE")
 n_shapes_filled <- 100
 
 # For splines to be drawn
-n_splines_drawn <- 8
+n_splines_drawn <- 6
 
 # For noise layer
 noise_colours <- c("#FFFFFF", "#000000")
